@@ -5,3 +5,15 @@
 ![4aacvs](https://user-images.githubusercontent.com/51194818/89194517-c46db400-d5a7-11ea-8857-247d99d9e72f.gif)
 ![4aad4w](https://user-images.githubusercontent.com/51194818/89194543-ccc5ef00-d5a7-11ea-9581-0b1762089335.gif)
 
+# Documentation:
+Full documentation is available on https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html?fbclid=IwAR1ByNyrBZI-zJhG245xZNZb657IwE5iMS8ooRuONrt4g5wMadJfjA2QCcw  use it to get Media.
+
+
+# Pods:
+1.pod 'IQKeyboardManagerSwift'
+
+2.pod 'Alamofire'
+
+3.pod 'SDWebImage', '~> 5.0'
+
+4.pod 'MBProgressHUD'
