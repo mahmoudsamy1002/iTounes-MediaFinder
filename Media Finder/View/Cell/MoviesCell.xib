@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="226" id="KGk-i7-Jjw" customClass="MediaCell" customModule="Media_Finder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="572" height="226"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="572" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ5-Cj-bpR" userLabel="Media Name">
+                        <rect key="frame" x="243.5" y="27" width="281" height="39"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLX-uu-tUF">
+                        <rect key="frame" x="243.5" y="74" width="281" height="118"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D7B-Yk-W6I">
+                        <rect key="frame" x="20" y="27" width="194" height="182"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lLX-uu-tUF" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.491259" id="4dr-8E-wGB"/>
+                    <constraint firstItem="D7B-Yk-W6I" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="97:113" id="BVC-mZ-H2x"/>
+                    <constraint firstItem="TZ5-Cj-bpR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="27" id="EPt-cY-h77"/>
+                    <constraint firstItem="D7B-Yk-W6I" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="F8a-2C-2tl"/>
+                    <constraint firstItem="D7B-Yk-W6I" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="27" id="KiD-8R-Eja"/>
+                    <constraint firstItem="TZ5-Cj-bpR" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.172566" id="O0M-sR-nXE"/>
+                    <constraint firstItem="TZ5-Cj-bpR" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.491259" id="Ojk-xS-cJh"/>
+                    <constraint firstItem="D7B-Yk-W6I" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.339161" id="U9N-7z-Wdb"/>
+                    <constraint firstItem="TZ5-Cj-bpR" firstAttribute="leading" secondItem="D7B-Yk-W6I" secondAttribute="trailing" multiplier="1.1" constant="8" symbolic="YES" id="ZGX-jn-G1F"/>
+                    <constraint firstItem="D7B-Yk-W6I" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.80531" id="aMJ-pf-wlk"/>
+                    <constraint firstItem="lLX-uu-tUF" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="281:226" id="bMV-qv-7NG"/>
+                    <constraint firstItem="lLX-uu-tUF" firstAttribute="top" secondItem="TZ5-Cj-bpR" secondAttribute="bottom" constant="8" id="ptq-GY-vtl"/>
+                    <constraint firstItem="lLX-uu-tUF" firstAttribute="trailing" secondItem="TZ5-Cj-bpR" secondAttribute="trailing" id="tqH-vG-n9p"/>
+                    <constraint firstItem="lLX-uu-tUF" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.522124" id="w1J-vi-nGv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mediaDesc" destination="lLX-uu-tUF" id="Dim-Sc-89I"/>
+                <outlet property="mediaImageView" destination="D7B-Yk-W6I" id="uMk-Ux-9h8"/>
+                <outlet property="mediaName" destination="TZ5-Cj-bpR" id="Kn5-1S-Bzh"/>
+            </connections>
+            <point key="canvasLocation" x="-36.231884057971016" y="-11.383928571428571"/>
+        </tableViewCell>
+    </objects>
+</document>
